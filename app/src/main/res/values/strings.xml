@@ -8,6 +8,7 @@
     <string name="xyz_reader">xyz reader</string>
     <string name="my_own_app">capstone: my own app</string>
 
+    <string name="toast_launch_app">This will launch</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
