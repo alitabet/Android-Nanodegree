@@ -1,61 +1,66 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#E3F2FD"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_bottom_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_top_margin"
-    tools:context=".MainActivity">
-
-    <TextView
-        style="@style/HeaderText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="My Nanodegree Apps!"
-        android:padding="8dp"/>
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#E3F2FD"
         android:orientation="vertical"
-        android:paddingBottom="32dp"
-        android:paddingLeft="48dp"
-        android:paddingRight="48dp"
-        android:paddingTop="32dp">
+        android:paddingBottom="@dimen/activity_bottom_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_top_margin"
+        tools:context=".MainActivity">
 
-        <Button
-            android:id="@+id/popular_movies_button"
-            style="@style/ButtonTheme"
-            android:text="@string/popular_movies" />
+        <TextView
+            style="@style/HeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="My Nanodegree Apps!"
+            android:padding="8dp"/>
 
-        <Button
-            android:id="@+id/scores_app_button"
-            style="@style/ButtonTheme"
-            android:text="@string/scores_app" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"
+            android:paddingLeft="48dp"
+            android:paddingRight="48dp"
+            android:paddingTop="32dp">
 
-        <Button
-            android:id="@+id/library_app_button"
-            style="@style/ButtonTheme"
-            android:text="@string/library_app" />
+            <Button
+                android:id="@+id/popular_movies_button"
+                style="@style/ButtonTheme"
+                android:text="@string/popular_movies" />
 
-        <Button
-            android:id="@+id/build_it_bigger_button"
-            style="@style/ButtonTheme"
-            android:text="@string/build_it_bigger" />
+            <Button
+                android:id="@+id/scores_app_button"
+                style="@style/ButtonTheme"
+                android:text="@string/scores_app" />
 
-        <Button
-            android:id="@+id/xyz_reader_button"
-            style="@style/ButtonTheme"
-            android:text="@string/xyz_reader" />
+            <Button
+                android:id="@+id/library_app_button"
+                style="@style/ButtonTheme"
+                android:text="@string/library_app" />
 
-        <Button
-            android:id="@+id/my_own_app_button"
-            style="@style/ButtonTheme"
-            android:background="#D50000"
-            android:text="@string/my_own_app" />
+            <Button
+                android:id="@+id/build_it_bigger_button"
+                style="@style/ButtonTheme"
+                android:text="@string/build_it_bigger" />
+
+            <Button
+                android:id="@+id/xyz_reader_button"
+                style="@style/ButtonTheme"
+                android:text="@string/xyz_reader" />
+
+            <Button
+                android:id="@+id/my_own_app_button"
+                style="@style/ButtonTheme"
+                android:background="#D50000"
+                android:text="@string/my_own_app" />
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
